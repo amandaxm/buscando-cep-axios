@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="utf-8">
+    <title>Busca Cep com axios</title>
+    <link rel="stylesheet" href="./assets/index.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="title">Buscando CEP com Axios</h1>
+        <form id="form-cep" action="#" onsubmit="procurarCep()" class="form form-inline">
+            <div class="row">
+                <div class="form___group">
+                    <input autofocus autocomplete="off" type="text" name="cep" id="cep" placeholder="Informe o cep"
+                        class="form-control" pattern="([\d]{8})" placeholder="Digite o CEP aqui" required type="text">
+                    <span class="form___requirement">* O campo deve ser informado com apenas números.</span>
+                </div>
+            </div>
+            <div class="row has-alignCenter">
+                <button type="submit" style="background-color: rgba(0, 128, 0, 0.767);" class="btn btn-info">Buscar</button> </div>
+        </form>
+        
+
+        <div id="results" style="display: none;"></div>
+        </div>
+        <!--Container-->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <script src="./index.js"></script>
+
+
+    </main>
+</body>
+
+</html>
+
+
+
+

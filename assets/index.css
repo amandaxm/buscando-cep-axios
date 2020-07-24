@@ -1,0 +1,40 @@
+:root {
+    --color-primary : rgba(0, 128, 0, 0.767);
+    --color-text : white;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background: rgba(0, 128, 0, 0.767);
+    color: white;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 5rem;
+    text-align: center;
+}
+
+.form {
+    padding: 1rem 5rem;
+}
+.form__text {
+    font-weight: bold;
+}
+
+.form___requirement {
+    color: #FF8080;
+    display: block;
+    font-weight: 100;
+    margin: .5rem .75rem;
+}
+
+.row {
+    width: 100%;
+}
+.row.has-alignCenter {
+    text-align: center;
+}
